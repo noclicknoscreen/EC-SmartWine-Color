@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EC_SmartWine_Serial::readAllAwaiting():EC-SmartWine-Serial.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "decodedMessage[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -10,18 +10,22 @@
 
 #include "ofMain.h"
 
+#define EC_MSG_ALL     "@LED_ALL"
+#define EC_MSG_R       "@LED_R_"
+#define EC_MSG_B_G     "@LED_B_G_"
+#define EC_MSG_B_D     "@LED_B_D_"
+
 class EC_SmartWine_Serial {
-    
-    bool		bSendSerialMessage;			// a flag for sending serial
-    char		bytesRead[3];				// data from serial, we will be trying to read 3
-    char		bytesReadString[4];			// a string needs a null terminator, so we need 3 + 1 bytes
-    int			nBytesRead;					// how much did we read?
-    int			nTimesRead;					// how many times did we read?
-    float		readTime;					// when did we last read?
     
     ofSerial	serial;
     
+    string		bytesReadString;			// a string needs a null terminator, so we need 3 + 1 bytes
     string      m_lastSent;
+    string      m_lastRead;
+    
+    ofColor     m_colorRobi;
+    ofColor     m_colorL_Bottles;
+    ofColor     m_colorR_Bottles;
     
 private:
     string      getColorString(ofColor _color);
@@ -30,6 +34,7 @@ private:
     
 public:
     void setup();
+    void draw();
     bool isInitialized();
     
     void sendLeftBottles(ofColor _color);
@@ -37,8 +42,13 @@ public:
     void sendRobinets(ofColor _color);
     void sendGeneral(ofColor _color);
     
+    void readAllAwaiting();
+    
     string lastSent(){
         return m_lastSent;
+    }
+    string lastRead(){
+        return m_lastRead;
     }
     
 };
