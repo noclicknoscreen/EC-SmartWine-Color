@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../examples/communication/serialExample/serialExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../examples/gui/guiFromParametersExample/guiFromParametersExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../examples/gui/guiExample/guiExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../examples/gui/parameterEdgeCasesExample/parameterEdgeCasesExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:EC-SmartWine-Serial/EC-SmartWine-Serial.xcodeproj">
+   </FileRef>
+</Workspace>

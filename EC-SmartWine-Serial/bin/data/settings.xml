@@ -1,0 +1,10 @@
+<group>
+	<Inited>1</Inited>
+	<Sending_Rate>0.5</Sending_Rate>
+	<All_or_Not>1</All_or_Not>
+	<General>226, 184, 53, 255</General>
+	<Left>255, 0, 140, 255</Left>
+	<Right>100, 0, 255, 255</Right>
+	<Robinets>140, 0, 140, 255</Robinets>
+<group/>
+</group>
