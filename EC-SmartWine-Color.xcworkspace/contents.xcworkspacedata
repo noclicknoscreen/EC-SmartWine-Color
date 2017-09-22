@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:../../examples/communication/serialExample/serialExample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../../examples/gui/guiFromParametersExample/guiFromParametersExample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../../examples/gui/guiExample/guiExample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../../examples/gui/parameterEdgeCasesExample/parameterEdgeCasesExample.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "Examples">
+      <FileRef
+         location = "group:../../examples/graphics/imageSaverExample/imageSaverExample.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:EC-SmartWine-Serial/../../../addons/ofxSyphon/example-ServerDirectory/example-ServerDirectory.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../../examples/communication/serialExample/serialExample.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../../examples/gui/guiFromParametersExample/guiFromParametersExample.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../../examples/gui/guiExample/guiExample.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../../examples/gui/parameterEdgeCasesExample/parameterEdgeCasesExample.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
       location = "container:EC-SmartWine-Serial/EC-SmartWine-Serial.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EC-SmartWine-SyphonToSerial/EC-SmartWine-SyphonToSerial.xcodeproj">
    </FileRef>
 </Workspace>

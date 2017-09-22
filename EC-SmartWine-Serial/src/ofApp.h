@@ -40,7 +40,7 @@ public:
     ofParameter<bool>       Inited;
     ofParameter<bool>       Auto;
     
-    ofParameter<float>  Period;
+    ofParameter<float>      Period;
     
     ofxPanel gui;
     
