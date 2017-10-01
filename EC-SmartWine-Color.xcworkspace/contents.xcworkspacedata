@@ -5,6 +5,18 @@
       location = "container:"
       name = "Examples">
       <FileRef
+         location = "group:../../examples/addons/oscSenderExample/oscSenderExample.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../../examples/addons/oscReceiveExample/oscReceiveExample.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../../examples/gui/oscParametersReceiver/oscParametersReceiver.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../../examples/gui/oscParametersSender/oscParametersSender.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:../../examples/graphics/imageSaverExample/imageSaverExample.xcodeproj">
       </FileRef>
       <FileRef
@@ -28,5 +40,8 @@
    </FileRef>
    <FileRef
       location = "group:EC-SmartWine-SyphonToSerial/EC-SmartWine-SyphonToSerial.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EC-SmartWine-SyphonToOsc/EC-SmartWine-SyphonToOsc.xcodeproj">
    </FileRef>
 </Workspace>
